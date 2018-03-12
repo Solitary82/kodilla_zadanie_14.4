@@ -1,0 +1,20 @@
+{
+  "name": "Zadanie_14.4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "npm-run-all test:*",
+    "test:js1": "jshint script.js",
+    "test:js2": "nu-html-checker index.html",
+    "download": "curl https://raw.githubusercontent.com/jshint/jshint/master/examples/.jshintrc -o .jshintrc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jshint": "^2.9.5",
+    "npm-run-all": "^4.1.2",
+    "nu-html-checker": "^0.1.0"
+  }
+}
